@@ -6,7 +6,7 @@ Usage
 -----
 
 ```
-/// <reference path="underscore.d.ts" />
+/// <reference path="underscore.string.d.ts" />
 
 import _s = module("underscore.string");
 console.log(_s.reverse("!dlrow olleh");
