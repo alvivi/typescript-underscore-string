@@ -20,7 +20,7 @@ declare module "underscore.string" {
 
     export function swapCase (str : string) : string;
 
-    export function include (str : string, substr : string) : bool;
+    export function include (str : string, substr : string) : boolean;
 
     export function count (str : string, substr : string) : number;
 
@@ -30,7 +30,7 @@ declare module "underscore.string" {
 
     export function insert (str : string, index : number, substr : string) : string;
 
-    export function isBlank (str : string) : bool;
+    export function isBlank (str : string) : boolean;
 
     export function join (separator : string, ...strs : string[]) : string;
 
@@ -40,9 +40,9 @@ declare module "underscore.string" {
 
     export function splice (str : string, index : number, howmany : number, substr : string) : string;
 
-    export function startsWith (str : string, starts : string) : bool;
+    export function startsWith (str : string, starts : string) : boolean;
 
-    export function endsWith (str : string, ends : string) : bool;
+    export function endsWith (str : string, ends : string) : boolean;
 
     export function succ (str : string) : string;
 
