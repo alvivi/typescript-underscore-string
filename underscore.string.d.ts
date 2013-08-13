@@ -72,6 +72,7 @@ declare module "underscore.string" {
     export function prune (str : string, length : number, pruneString? : string) : string;
 
     export function words (str : string, delimiter : RegExp) : string[];
+    export function words (str : string, delimiter : string) : string[];
 
     export function sprintf (format : string, ...args : any[]) : string;
 
